@@ -156,11 +156,6 @@ h1 {
         padding: 0 1em;
     }
 
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .app-details {
         text-align: center;
     }
@@ -173,6 +168,24 @@ h1 {
     .screenshot {
         width: 80%;
         max-width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .app-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .install-button {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+
+    .screenshot {
+        width: 80%;
+        max-width: 150px;
         height: auto;
     }
 }
